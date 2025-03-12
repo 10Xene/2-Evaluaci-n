@@ -1,5 +1,5 @@
 def buscarPalabra(objetivo, palabras):
-# Crear lista de nombres.
+# Crear lista de nombres y edades
 nombres= Perantano, Zutano, Fulano, Mengano
 edades= 0, 25, 50, 75
 
