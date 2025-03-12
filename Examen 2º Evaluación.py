@@ -1,7 +1,4 @@
 def buscarPalabra(objetivo, palabras):
-# Crear lista de nombres
-nombres= Perantano, Zutano, Fulano, Mengano
-edades= 0, 25, 50, 75
 
 def imprimirListaInversa(lista):
 
@@ -14,10 +11,10 @@ edades = {
     "Perantano": 75
 }
  for nombre in nombres:
-        # Si la letra está en vocales
+        # Si nombre está en vocales
         if nombre in nombres:
             # Es una vocal, se suma 1 al diccionario por clave
             resultado[nombre]
    
     # Devolver el resultado
-    return nombres
+    return nombre
