@@ -1,5 +1,12 @@
 def buscarPalabra(objetivo, palabras):
-
+# El valor por defecto está iniciado a 0
+    nombres = 0
+    
+    # Para cada nombre de los nombres
+    for numero in numeros:
+        # Si el nombre es igual al objetivo
+        if nombre == objetivo:
+            nombre ==nombre
 def imprimirListaInversa(lista):
 for i in range(len(nombres)-1, -1, -1):
         # Concatenamos cada letra
