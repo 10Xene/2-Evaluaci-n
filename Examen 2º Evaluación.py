@@ -25,7 +25,7 @@ for nombre in nombres:
 def imprimirEdades(edades):
     for nombre, edad in edades.items():
         print(f"{nombre} tiene {edad} años.")
-    print(buscarPalabra("Fulano", nombres))
+    print(buscarPalabra("exit", nombres))
     
     def imprimirListaInversa(lista):
         lista = lista[::-1]
