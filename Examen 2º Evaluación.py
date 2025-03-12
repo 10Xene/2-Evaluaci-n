@@ -19,12 +19,12 @@ edades = {
 for nombre in nombres:
         # Si nombre está en nombres
         if nombre in nombres:
-            print(f"{nombre} está en la lista de nombres.")
+            print("{nombre} está en la lista de nombres.")
         else:
-            print(f"{nombre} no está en la lista de nombres.")
+            print("{nombre} no está en la lista de nombres.")
 def imprimirEdades(edades):
     for nombre, edad in edades.items():
-        print(f"{nombre} tiene {edad} años.")
+        print("{nombre} tiene {edad} años.")
     print(buscarPalabra("exit", nombres))
     
     def imprimirListaInversa(lista):
