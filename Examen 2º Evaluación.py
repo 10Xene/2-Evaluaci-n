@@ -1,7 +1,12 @@
 def buscarPalabra(objetivo, palabras):
 
 def imprimirListaInversa(lista):
-
+for i in range(len(nombres)-1, -1, -1):
+        # Concatenamos cada letra
+        palabra_invertida += palabra[i]
+   
+    # Devolvemos la palabra invertida
+    return palabra_invertida
 
 nombres = ["Mengano", "Fulano", "Zutano", "Perantano"]
 edades = {
@@ -11,9 +16,9 @@ edades = {
     "Perantano": 75
 }
  for nombre in nombres:
-        # Si nombre está en vocales
+        # Si nombre está en nombres
         if nombre in nombres:
-            # Es una vocal, se suma 1 al diccionario por clave
+            
             resultado[nombre]
    
     # Devolver el resultado
