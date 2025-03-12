@@ -1,32 +1,35 @@
 def buscarPalabra(objetivo, palabras):
-# El valor por defecto está iniciado a 0
-    nombres = 0
+
     
     # Para cada nombre de los nombres
     for nombre in nombres:
         # Si el nombre es igual al objetivo
         if nombre == objetivo:
             nombre ==nombre
-def imprimirListaInversa(lista):
 
 
-nombres = ["Mengano", "Fulano", "Zutano", "Perantano"]
+
+nombres=["Mengano", "Fulano", "Zutano", "Perantano"]
 edades = {
     "Mengano": 0,
     "Fulano": 25,
     "Zutano": 50,
     "Perantano": 75
 }
- for nombre in nombres:
+for nombre in nombres:
         # Si nombre está en nombres
         if nombre in nombres:
-            return True
+            print(f"{nombre} está en la lista de nombres.")
         else:
-            return False
+            print(f"{nombre} no está en la lista de nombres.")
 def imprimirEdades(edades):
     for nombre, edad in edades.items():
         print(f"{nombre} tiene {edad} años.")
 def main():
     print(buscarPalabra("Fulano", nombres))
     
-    print(imprimirListaInversa("Hola"))
+    def imprimirListaInversa(lista):
+        lista = lista[::-1]
+        return lista
+    
+    print(imprimirListaInversa(""))
