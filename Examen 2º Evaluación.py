@@ -3,7 +3,7 @@ def buscarPalabra(objetivo, palabras):
     nombres = 0
     
     # Para cada nombre de los nombres
-    for nombre in :
+    for nombre in nombres:
         # Si el nombre es igual al objetivo
         if nombre == objetivo:
             nombre ==nombre
