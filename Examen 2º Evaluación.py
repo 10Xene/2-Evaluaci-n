@@ -22,6 +22,7 @@ for nombre in nombres:
             print(f"{nombre} está en la lista de nombres.")
         else:
             print(f"{nombre} no está en la lista de nombres.")
+            
 def imprimirEdades(edades):
     for nombre, edad in edades.items():
         print(f"{nombre} tiene {edad} años.")
